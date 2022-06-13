@@ -1,0 +1,25 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* directions: row-reverse || column-reverse; */
+    /* flex-wrap: wrap; */
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+.item {
+    background-color: rgb(84, 179, 179);
+    margin: 5px;
+
+}

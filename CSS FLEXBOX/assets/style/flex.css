@@ -1,0 +1,41 @@
+.flex-container {
+display: flex;
+padding: 0;
+margin: 0;
+/* box-sizing: border-box; */
+list-style: none;
+text-align: center;
+gap: 5px;
+user-select: none;
+margin: 0 0 10px 0;
+}
+
+.flex-item {
+
+    background: rgb(95, 184, 184);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 9px;
+}
+
+.row-reverse {
+
+    flex-direction: row-reverse;
+}
+
+.row-reverse li {
+    
+   background: crimson;
+}
+
+.column {
+
+    float: left;
+    flex-direction: column-reverse;
+}
+
+.column li {
+
+    background: rgb(109, 151, 47);
+}
