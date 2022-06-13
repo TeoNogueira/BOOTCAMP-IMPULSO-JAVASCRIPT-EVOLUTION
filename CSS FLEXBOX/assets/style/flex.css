@@ -32,10 +32,21 @@ margin: 0 0 10px 0;
 .column {
 
     float: left;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .column li {
 
     background: rgb(109, 151, 47);
+}
+
+.column-reverse {
+
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li {
+
+    background: rgb(49, 47, 151);
 }
