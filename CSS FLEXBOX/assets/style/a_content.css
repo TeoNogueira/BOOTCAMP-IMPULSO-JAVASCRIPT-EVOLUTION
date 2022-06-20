@@ -1,0 +1,73 @@
+.container {
+
+    height: 400px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: flex;
+    border: solid black 1px;
+    flex-wrap: wrap;
+
+}
+
+.item {
+
+    background: orangered;
+    padding: 0 5px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.stretch {
+    align-items: stretch;
+}
+.center {
+    align-items: center;
+}
+.align-flex-start {
+    align-items: flex-start;
+}
+.align-flex-end {
+    align-items: flex-end;
+}
+.align-space-around {
+    align-items: space-around;
+}
+.align-space-between {
+    align-items: space-between;
+}
+
+
+/* COLORS DIV */
+
+
+.c2-i {
+
+    background: rgb(68, 122, 126) !important;
+}
+.c3-i {
+
+    background: rgb(89, 126, 68) !important;
+}
+.c4-i {
+
+    background: rgb(138, 124, 62) !important;
+}
+.c5-i {
+
+    background: rgb(170, 51, 51) !important;
+}
+
+.c6-i {
+
+    background: rgb(62, 80, 138) !important;
+}
+.c7-i {
+
+    background: rgb(179, 78, 19) !important;
+}
