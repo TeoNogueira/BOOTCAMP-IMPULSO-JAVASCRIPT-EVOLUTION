@@ -4,24 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Shrink</title>
 </head>
 
 <style>
     .f-container {
 
         display: flex;
-        max-width: 500px;
+        max-width: 400px;
         text-align: center;
         border: solid black 1px;
+        margin: 5px 0;
 
     }
 
     .items {
+        background-color: orangered;;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
         
     }
+    
+    .s-0 {
+        flex-shrink: 0;
+    }
+
+    .s-01 {
+        flex-shrink: 1;
+        
+    }
+    .fg-01 {
+        flex-grow: 1;
+        
+    }
+
+
+
 </style>
 <body>
     
+    <p>Flex shrink: 01</p>
+<div class="f-container">
+
+<div class="items s-01 fg-01">A</div>
+<div class="items s-01 fg-01">B</div>
+<div class="items s-01 fg-01">C</div>
+<div class="items s-01 fg-01">D</div>
+<div class="items s-01 fg-01">E</div>
+<div class="items s-01 fg-01">F</div>
+<div class="items s-01 fg-01">G</div>
+
+</div>
+<div class="f-container">
+
+<div class="items s-01 fg-01">A</div>
+<div class="items s-01 fg-01">B</div>
+<div class="items s-01 fg-01">C</div>
+<div class="items s-01 fg-01">Takedimiti Taketi Takedimi takeditake</div>
+
+</div>
+
+<div class="f-container">
+
+<div class="items s-0 fg-01">A</div>
+<div class="items s-0 fg-01">B</div>
+<div class="items s-0 fg-01">C</div>
+<div class="items s-0 fg-01">Takedimiti Taketi Takedimi takeditake</div>
+
+</div>
+
 </body>
 </html>
