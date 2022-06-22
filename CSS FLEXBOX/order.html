@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .f-container {
+
+        display: flex;
+        max-width: 400px;
+        border: solid black 1px;
+        margin: 5px 0;
+
+    }
+
+    .items {
+
+        flex: 1;
+        background: brown;
+        margin: 5px;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .o-1 {
+        order: 1;
+
+    }
+    .o-2 {
+        order: 2;
+
+    }
+    .o-3 {
+        order: 3;
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <p>Por padrão o order vem</p>
+    <p>Order: 1</p>
+<div class="f-container">
+
+<div class="items o-0">A</div>
+<div class="items o-0">B</div>
+<div class="items o-0">CCC</div>
+<div class="items o-0">DD</div>
+<div class="items o-0">EEEE</div>
+
+
+</div>
+
+<div class="f-container">
+
+<div class="items o-1">A</div>
+<div class="items o-1">B</div>
+<div class="items o-1">CCC</div>
+<div class="items o-1">DD</div>
+<div class="items o-1">EEEE</div>
+
+
+</div>
+<div class="f-container">
+
+<div class="items o-2">A</div>
+<div class="items o-2">B</div>
+<div class="items o-2">CCC</div>
+<div class="items o-2">DD</div>
+<div class="items o-2">EEEE</div>
+
+
+</div>
+<div class="f-container">
+
+<div class="items ">A</div>
+<div class="items o-2">B</div>
+<div class="items o-3">CCC</div>
+<div class="items o-2">DD</div>
+<div class="items o-1">EEEE</div>
+
+
+</div>
+
+</body>
+</html>
