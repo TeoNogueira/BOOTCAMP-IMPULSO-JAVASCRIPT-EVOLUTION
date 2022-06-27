@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+.f-container {
+
+display: flex;
+max-width: 400px;
+text-align: center;
+border: solid black 1px;
+margin: 5px 0;
+
+}
+
+.items {
+background-color: brown;
+font-size: 24px;
+text-align: center;
+margin: 5px;
+color: white;
+
+}
+
+.center {
+
+    align-self: center;
+}
+.start {
+
+    align-self: start;
+}
+.end {
+
+    align-self: end;
+}
+.baseline {
+
+    align-self: baseline;
+}
+.stretch {
+
+    align-self: stretch;
+}
+
+.auto {
+
+    align-self: auto;
+}
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<p>ALIGN-SELF: AUTO</p>
+    <section class="f-container">
+        <div class="items auto">AAA</div>
+        <div class="items auto">321</div>
+        <div class="items auto">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items auto">ITEM 4</div>
+    </section>
+    <p>ALIGN-SELF: start</p>
+    <section class="f-container">
+        <div class="items start">AAA</div>
+        <div class="items start">321</div>
+        <div class="items start">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items start">ITEM 4</div>
+    </section>
+    <p>ALIGN-SELF: end</p>
+    <section class="f-container">
+        <div class="items end">AAA</div>
+        <div class="items end">321</div>
+        <div class="items end">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items end">ITEM 4</div>
+    </section>
+    <p>ALIGN-SELF: baseline</p>
+    <section class="f-container">
+        <div class="items baseline">AAA</div>
+        <div class="items baseline">321</div>
+        <div class="items baseline">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items baseline">ITEM 4</div>
+    </section>
+    <p>ALIGN-SELF: center</p>
+    <section class="f-container">
+        <div class="items center">AAA</div>
+        <div class="items center">321</div>
+        <div class="items center">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items center">ITEM 4</div>
+    </section>
+    <p>ALIGN-SELF RANDOM</p>
+    <section class="f-container">
+        <div class="items stretch">AAA</div>
+        <div class="items start">321</div>
+        <div class="items baseline">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items end">ITEM 4</div>
+    </section>
+    <p>ALIGN-SELF: stretch</p>
+    <section class="f-container">
+        <div class="items stretch">AAA</div>
+        <div class="items stretch">321</div>
+        <div class="items stretch">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+        <div class="items stretch">ITEM 4</div>
+    </section>
+</body>
+</html>
